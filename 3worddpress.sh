@@ -49,7 +49,7 @@ sudo chown -R www-data:www-data /var/www/html/wordpress3/wp-content/uploads/
 #setting apache2
 sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/wordpress1.conf
 sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/wordpress2.conf
-sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/wordpress2.conf
+sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/wordpress3.conf
 sudo sed -i 's#/var/www/html#/var/www/html/wordpress1/#' /etc/apache2/sites-available/wordpress1.conf
 sudo sed -i 's#/var/www/html#/var/www/html/wordpress2/#' /etc/apache2/sites-available/wordpress2.conf
 sudo sed -i 's#/var/www/html#/var/www/html/wordpress3/#' /etc/apache2/sites-available/wordpress3.conf
